@@ -22,4 +22,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/
 
 # Entry point (can be changed later)
-CMD ["python", "main.py"]
+CMD ["python", "test.py"]
